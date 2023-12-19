@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from RMX2151 device
-$(call inherit-product, device/realme/RMX2001/device.mk)
+$(call inherit-product, device/realme/RMX2001L1/device.mk)
 
 PRODUCT_DEVICE := RMX2001L1
 PRODUCT_NAME := omni_RMX2001L1
